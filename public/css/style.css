@@ -13,7 +13,7 @@
 }
 
 body {
-  background-color: #000;
+  background-color: yellow;
   display: flex;
   justify-content: center;
 }
@@ -103,9 +103,6 @@ a {
 .populaires__cards .card__title {
   margin-top: 10px;
   margin-bottom: 4px;
-}
-.populaires__cards .card__subtitle {
-  margin: 0;
 }
 .populaires__cards .card__rating {
   margin-bottom: 5px;

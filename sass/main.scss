@@ -10,7 +10,7 @@
   color: var(--main-color);
 }
 body {
-    background-color: #000;
+    background-color: pink;
   display: flex;
   justify-content: center;
 }
@@ -89,9 +89,6 @@ a {
   .card__title {
     margin-top: 10px;
     margin-bottom: 4px;
-  }
-  .card__subtitle {
-    margin: 0;
   }
   .card__rating {
     margin-bottom: 5px;
