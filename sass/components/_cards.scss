@@ -1,0 +1,64 @@
+.card {
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.1);
+    img {
+      object-fit: cover;
+    }
+  }
+  .card__title {
+    font-size: 16px;
+  }
+  .euro {
+    font-weight: 700;
+  }
+  .neutral-star {
+    color: var(--main-bg-color);
+  }
+  .hebergements-and-populaires {
+    @include flex_space_between;
+    section {
+      background-color: $main-bg-color;
+      border-radius: 20px;
+      padding: 30px;
+      box-sizing: border-box;
+    }
+  }
+  .hebergements {
+    width: 65%;
+  }
+  .populaires {
+    width: 32%;
+  }
+  .populaires__title {
+    @include flex_space_between;
+    align-items: center;
+  }
+  .populaires__cards {
+    .card {
+      display: flex;
+      margin-top: 33px;
+    }
+    img {
+      width: 33%;
+      height: 136px;
+      border-top-left-radius: 20px;
+      border-bottom-left-radius: 20px;
+    }
+    .card__content {
+      width: 67%;
+      padding-left: 15px;
+      @include flex_space_between;
+      flex-direction: column;
+      box-sizing: border-box;
+    }
+    .card__title {
+      margin-top: 10px;
+      margin-bottom: 4px;
+    }
+    .card__rating {
+      margin-bottom: 5px;
+    }
+  }
+  
