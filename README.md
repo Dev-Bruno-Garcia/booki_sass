@@ -6,6 +6,7 @@
 
 Bienvenue sur Booki, une plateforme de réservation de logements et d'activités de vacances.
 Ce site est retravaillé dans le but d'ajouter du Sass et par la suite du javascript....
+Dans ce projet, des pages supplémentaires seront créer bien que sur l'originale celles-ci n'existent pas (training).
 
 ## Description
 
