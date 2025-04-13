@@ -1,9 +1,10 @@
-@import"./abstracts/extend";
-@import "./abstracts/variables";
-@import "./abstracts/mixins";
-@import "./base/reset";
-@import "./layout/header";
-@import "./components/cards";
+@use "./abstracts/variables";
+@use "./components/navBar";
+// @use "./components/footer";
+@use "./abstracts/mixins";
+@use "./base/reset";
+@use "./layout/header";
+@use "./components/cards";
 
 
 
