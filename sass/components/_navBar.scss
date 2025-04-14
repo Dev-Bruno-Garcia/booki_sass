@@ -1,6 +1,9 @@
-.navBar{
-    display: flex;
-    justify-content: space-between;
-    width: 250px;
-    background: yellow;
+.nav__ul{
+ display: flex;
+ gap: 68px;
+ margin: 0 50px;
+ .nav__ul--li{
+    display: inline-block;
+    padding-top: 15px;
+ }
 }
