@@ -1,13 +1,3 @@
-.nav__ul {
-  display: flex;
-  gap: 68px;
-  margin: 0 50px;
-}
-.nav__ul .nav__ul--li {
-  display: inline-block;
-  padding-top: 15px;
-}
-
 /***********BALISES ELEMENTAIRES***********/
 * {
   box-sizing: border-box;
@@ -111,6 +101,20 @@ input {
 
 footer a:hover {
   color: #0065fc;
+}
+
+.nav__ul {
+  display: flex;
+  gap: 68px;
+  margin: 0 50px;
+}
+.nav__ul .nav__ul--li {
+  display: inline-block;
+  padding-top: 15px;
+}
+.nav__ul .nav__ul--li:hover {
+  border-top: 1px solid #0065FC;
+  color: #0065FC;
 }
 
 .header {
